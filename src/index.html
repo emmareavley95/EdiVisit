@@ -12,6 +12,7 @@
   <meta name="theme-color" content="#4e8ef7">
   
   <!-- cordova.js required for cordova apps -->
+  <script src="../bower_components/ngCordova/dist/ng-cordova.js"></script>
   <script src="cordova.js"></script>
 
   <!-- un-comment this code to enable service worker
@@ -26,10 +27,13 @@
   <link href="build/main.css" rel="stylesheet">
 
 </head>
-<body>
+<body ng-app="starter" ng-controller="MapCtrl">
 
   <!-- Ionic's root component and where the app will load -->
   <ion-app></ion-app>
+
+  <!-- GoogleMaps plugin API -->
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCjG2bh6zbKk2---3ZDsyspsTGXyPhZZkI&sensor=true"></script>
 
   <!-- The polyfills js is generated during the build process -->
   <script src="build/polyfills.js"></script>
