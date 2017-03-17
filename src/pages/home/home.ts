@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
-
-import { NavController } from 'ionic-angular';
+import { NavController, Platform } from 'ionic-angular';
+import { Geolocation } from 'ionic-native';
 
 @Component({
   selector: 'page-home',
@@ -11,7 +11,15 @@ export class HomePage {
 	@ViewChild('map') mapElement;
 	map: any;
 
-	constructor(public navCtrl: NavController) {
+	constructor(public navCtrl: NavController, platform: Platform) {
+		
+		platform.ready().then(() => {
+
+			Geolocation.getCurrentPosition().then((data) => {
+            	console.log('My latitude: ', data.coords.latitude);
+            	console.log('My longitude: ', data.coords.longitude);
+        	});
+        });
 
 	}
 
