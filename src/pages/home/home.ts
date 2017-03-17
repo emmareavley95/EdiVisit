@@ -15,9 +15,9 @@ export class HomePage {
 		
 		platform.ready().then(() => {
 
-			Geolocation.getCurrentPosition().then((data) => {
-            	console.log('My latitude: ', data.coords.latitude);
-            	console.log('My longitude: ', data.coords.longitude);
+			Geolocation.getCurrentPosition().then((location) => {
+            	console.log('My latitude: ', location.coords.latitude);
+            	console.log('My longitude: ', location.coords.longitude);
         	});
         });
 
@@ -28,15 +28,22 @@ export class HomePage {
 	}
 
 	initMap(){
-		let latLng = new google.maps.LatLng(55.953056, -3.188889);
-		
-		let mapOptions = {
-			center: latLng,
-			zoom: 15,
-			mapTypeId: google.maps.MapTypeId.ROADMAP
-		};
 
-		this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
+		let options = {timeout: 10000, enableHighAccuracy: true};
+
+		Geolocation.getCurrentPosition(options).then((location) => {
+			let latLng = new google.maps.LatLng(location.coords.latitude, location.coords.longitude);
+
+			let mapOptions = {
+				center: latLng,
+				zoom: 15,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+
+			this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
+
+		});
+
 	}
 
 }
