@@ -1,22 +1,17 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
+import { Locations } from '../../providers/locations';
 
-/*
-  Generated class for the Landmarks page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-landmarks',
   templateUrl: 'landmarks.html'
 })
 export class LandmarksPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public navCtrl: NavController, public locations: Locations) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LandmarksPage');
+    console.log('Here are the main landmarks of T2 inEdinburgh');
   }
 
 }
