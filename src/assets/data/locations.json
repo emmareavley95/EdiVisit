@@ -1,0 +1,54 @@
+{
+	"locations": [
+		{
+			"name": "Holyrood Park",
+			"latitude": 55.944412,
+			"longitude": -3.16186
+		},
+		{
+			"name": "Edinburgh Airport",
+			"latitude": 55.950957,
+			"longitude": -3.361498
+		},
+		{
+			"name": "Princes Street",
+			"latitude": 55.951484,
+			"longitude": -3.199472
+		},
+		{
+			"name": "The CAV",
+			"latitude": 55.943562,
+			"longitude": -3.204121
+		},
+		{
+			"name": "Forth Road Bridge",
+			"latitude": 55.998652,
+			"longitude": -3.403596
+		},
+		{
+			"name": "Scottish parliament",
+			"latitude": 55.952048,
+			"longitude": -3.175146
+		},
+		{
+			"name": "Royal Mile",
+			"latitude": 55.950086,
+			"longitude": -3.188205
+		},
+		{
+			"name": "St Stephen's Stockbridge",
+			"latitude": 55.958574,
+			"longitude": -3.203469
+		},
+		{
+			"name": "Forth floor restaurant",
+			"latitude": 55.954893,
+			"longitude": -3.191774
+		},
+		{
+			"name": "Waverley Bridge",
+			"latitude": 55.951843,
+			"longitude": -3.191784
+		}
+	]
+}
