@@ -1,15 +1,22 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
-
+import { Platform } from 'ionic-angular';
+import { Geolocation } from 'ionic-native';
 
 @Injectable()
 export class Locations {
 
 	data: any;
  
-    constructor(public http: Http) {
- 
+    constructor(public http: Http, public platform: Platform) {
+    	platform.ready().then(() => {
+
+			Geolocation.getCurrentPosition().then((position) => {
+            	console.log('My latitude location: ', position.coords.latitude);
+            	console.log('My longitude location: ', position.coords.longitude);
+        	});
+        });
     }
  
     load(){
@@ -36,7 +43,7 @@ export class Locations {
     }
  
     applyHaversine(locations){
- 
+
         let usersLocation = {
             lat: 55.951484, 
             lng: -3.199472
