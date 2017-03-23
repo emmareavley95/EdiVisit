@@ -165,9 +165,25 @@ export class GoogleMaps {
       		animation: google.maps.Animation.DROP,
       		position: latLng
     	});
+
+      let content = "<h4>Information !</h4>";
+
+      this.addInfoWindow(marker, content);
  
     	this.markers.push(marker);  
  
   	}
+
+    addInfoWindow(marker, content){
+
+      let infoWindow = new google.maps.InfoWindow({
+        content: content
+      });
+ 
+      google.maps.event.addListener(marker, 'click', () => {
+        infoWindow.open(this.map, marker);
+      });
+ 
+    }
 
 }
