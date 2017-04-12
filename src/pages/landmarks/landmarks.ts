@@ -11,7 +11,7 @@ export class LandmarksPage {
   constructor(public navCtrl: NavController, public locations: Locations) {}
 
   ionViewDidLoad() {
-    console.log('Here are the main landmarks of T2 inEdinburgh');
+    
   }
 
 }
