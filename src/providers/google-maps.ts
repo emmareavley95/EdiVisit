@@ -166,7 +166,7 @@ export class GoogleMaps {
       		position: latLng
     	});
 
-      let content = "<h4>Information !</h4>";
+      let content = "<div><a ng-click='clickTest()'>More info</a></div>";
 
       this.addInfoWindow(marker, content);
  
