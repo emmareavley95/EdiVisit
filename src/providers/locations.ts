@@ -10,15 +10,9 @@ export class Locations {
 	data: any;
  
     constructor(public http: Http, public platform: Platform) {
-    	platform.ready().then(() => {
-
-			Geolocation.getCurrentPosition().then((position) => {
-            	console.log('My latitude location: ', position.coords.latitude);
-            	console.log('My longitude location: ', position.coords.longitude);
-        	});
-        });
+    	
     }
- 
+
     load(){
  
         if(this.data){
@@ -41,13 +35,22 @@ export class Locations {
         });
  
     }
- 
+
     applyHaversine(locations){
 
         let usersLocation = {
-            lat: 55.951484, 
-            lng: -3.199472
+            lat: 55.9329823, 
+            lng: -3.214514897
         };
+
+        Geolocation.getCurrentPosition().then((position) => {
+        	console.log("updating position");
+        	usersLocation.lat = position.coords.latitude;
+        	usersLocation.lng = position.coords.longitude;
+
+        });
+
+        console.log('Current position:', usersLocation);
  
         locations.map((location) => {
  
