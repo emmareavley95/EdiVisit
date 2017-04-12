@@ -3,52 +3,62 @@
 		{
 			"name": "Holyrood Park",
 			"latitude": 55.944412,
-			"longitude": -3.16186
+			"longitude": -3.16186,
+			"info": "If you want to enjoy the beautiful panoramic views that are showcased so beautifully in the movie, then a climb up Arthur's Seat is a must. </br> Follow Spud's lead and make your way up to the top, the beautiful landscape and the sense of achievement will make the challenge completely worth it. After rescuing Spud from the brink, Mark takes his friend on an exhilirating run around Holyrood Park and Arthur's Seat. This 650 acre slice of the Highlands right in the city centre on Scotland's capital is a brilliant place to go for a jog, and the circular road of Queens Drive is a popular running route (even for Ewan McGregor himself)."
 		},
 		{
 			"name": "Edinburgh Airport",
 			"latitude": 55.950957,
-			"longitude": -3.361498
+			"longitude": -3.361498,
+			"info": "The airport has gone through a lot of changes since we first met Mark in 1996, perhaps the most notable being the addition of the Edinburgh. Trams, which Mark uses to get from the airport to Princes Street in the city centre.  Mark's life in Amsterdam falls apart, he returns to Edinburgh to reunite with his family and old friends. He touches down in Edinburgh Airport with one of the first scenes of T2 taking place on the tram platform concourse."
 		},
 		{
 			"name": "Princes Street",
 			"latitude": 55.951484,
-			"longitude": -3.199472
+			"longitude": -3.199472,
+			"info": "The airport has gone through a lot of changes since we first met Mark in 1996, perhaps the most notable being the addition of the Edinburgh. Trams, which Mark uses to get from the airport to Princes Street in the city centre.  Mark's life in Amsterdam falls apart, he returns to Edinburgh to reunite with his family and old friends. He touches down in Edinburgh Airport with one of the first scenes of T2 taking place on the tram platform concourse."
 		},
 		{
 			"name": "The CAV",
 			"latitude": 55.943562,
-			"longitude": -3.204121
+			"longitude": -3.204121,
+			"info": "For the nightclub scene, the T2 crew went to one of Edinburgh's most famous venues: The Cav. Located on West Tollcross, this nightclub has a 60 year history and has a special place in the hearts of Edinburgh residents. Simon and Renton head to The Cav for a night out, but the partying is cut short when Begbie finds his arch-enemy hiding in the toilet."
 		},
 		{
 			"name": "Forth Road Bridge",
 			"latitude": 55.998652,
-			"longitude": -3.403596
+			"longitude": -3.403596,
+			"info": "Don't mess with Mr Doyle. Simon and Mark quickly learn that lesson when they are taken by one of the most powerful gangsters in Edinburgh over the Forth Road Bridge and dumped in the middle of nowhere, without their clothes, left to make their own way back home. The hapless pair manage to grab a couple of aprons from a nearby farm, and somehow manage to walk back across the bridge before freezing to death."
 		},
 		{
 			"name": "Scottish parliament",
 			"latitude": 55.952048,
-			"longitude": -3.175146
+			"longitude": -3.175146,
+			"info": "To try and get their business off the ground, Mark and Simon pay a visit to the Scottish Parliament to try and secure funding. The building is usually open to visitors Monday to Saturday to visit."
 		},
 		{
 			"name": "Royal Mile",
 			"latitude": 55.950086,
-			"longitude": -3.188205
+			"longitude": -3.188205,
+			"info": "After their run-in in the nightclub toilet, Renton tries to make his escape through Edinburgh's Old Town. In the film you can see him runnning through some of the most iconic streets of Edinburgh, with Begbie in hot pursuit. Relive the chase on streets yourself by exploring Fleshmarket Close, the Grassmarket, Cockburn Street and Parliament Square."
 		},
 		{
 			"name": "St Stephen's Stockbridge",
 			"latitude": 55.958574,
-			"longitude": -3.203469
+			"longitude": -3.203469,
+			"info": "The Great Hall of St Stephen's in Stockbridge features in one of the opening scenes of T2 Trainspotting when Spud attends a recovery group meeting. This beautiful landmark building was designed by William Henry Playfair, and is one of the most iconic structures in Stockbridge."
 		},
 		{
 			"name": "Forth floor restaurant",
 			"latitude": 55.954893,
-			"longitude": -3.191774
+			"longitude": -3.191774,
+			"info": "For a touch of glamour, Veronika and Renton go for dinner at the Forth Floor Restaurant, located in Harvey Nichols on St Andrew Square. Its beautiful glass windows allow stunning panoramic views of the New Town and beyond."
 		},
 		{
 			"name": "Waverley Bridge",
 			"latitude": 55.951843,
-			"longitude": -3.191784
+			"longitude": -3.191784,
+			"info": "Home to one of the most iconic scenes in the original Trainspotting film, the back street under Regent Bridge makes another appearance in T2 Trainspotting. This time, however, it is a very poignant scene, as Spud reflects on his youth as he sees two boys running down the road just like he and Renton did twenty years ago. Regent Bridge is very easy to find if you come in via train, as it's just a short walk from the back entrance of Waverley Station."
 		}
 	]
 }
