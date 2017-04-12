@@ -1,7 +1,7 @@
 page-home {
 	#please-connect {
     	position: absolute;
-    	background-color: #000;
+    	background-color: #e86b30;
     	opacity: 0.5;
     	width: 100%;
     	height: 100%;
@@ -28,8 +28,12 @@ page-home {
 		position: relative;
 	}
 
-	.map-wrapper {
-		width: 100%;
-		height: 100%;
-	}
+  .top {
+    position: absolute;
+    top: 0;
+    width: 50%;
+  }
+  .request-controls {
+    text-align: center;
+  }
 }
